@@ -35,6 +35,6 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: |
         mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
-          -Dsonar.projectKey=JACEKPALCEK_plkwiktor_Lab-9-10-ZTM
-          -Dsonar.organization=JACEKPALCEK
+          -Dsonar.projectKey=plkwiktor_plkwiktor_Lab-9-10-ZTM
+          -Dsonar.organization=plkwiktor
           -Dsonar.host.url=https://sonarcloud.io
